@@ -1,0 +1,64 @@
+$ sh run.sh 
+Resolution
+Grid Spacing
+Origin
+Method
+Read points finished
+Read
+Resolution: 100 x 100 x 100
+Domain: [0.000000, 0.000000, 0.000000] x [1.000000, 1.000000, 1.000000]
+Grid spacing: [0.010000, 0.010000, 0.010000]
+Number of particles: 375547
+Reconstruction method: anisotropic
+[INFO] 2020-05-14 18:35:23 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/anisotropic_points_to_implicit3.cpp:77 (convert)] Start converting points to implicit surface.
+[INFO] 2020-05-14 18:35:23 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/anisotropic_points_to_implicit3.cpp:88 (convert)] Built neighbor searcher.
+[INFO] 2020-05-14 18:37:12 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/anisotropic_points_to_implicit3.cpp:166 (convert)] Computed G and means.
+[INFO] 2020-05-14 18:38:21 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/anisotropic_points_to_implicit3.cpp:190 (convert)] Computed SDF.
+[INFO] 2020-05-14 18:38:21 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/anisotropic_points_to_implicit3.cpp:201 (convert)] Done converting points to implicit surface.
+Writing pFrame210_ani_k0.05.obj...
+Resolution
+Grid Spacing
+Origin
+Method
+Read points finished
+Read
+Resolution: 100 x 100 x 100
+Domain: [0.000000, 0.000000, 0.000000] x [1.000000, 1.000000, 1.000000]
+Grid spacing: [0.010000, 0.010000, 0.010000]
+Number of particles: 375547
+Reconstruction method: spherical
+[INFO] 2020-05-14 18:38:23 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/point_parallel_hash_grid_searcher3.cpp:141 (build)] Average number of points per non-empty bucket: 9629.41
+[INFO] 2020-05-14 18:38:23 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/point_parallel_hash_grid_searcher3.cpp:144 (build)] Max number of points per bucket: 21305
+[INFO] 2020-05-14 18:38:23 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/particle_system_data3.cpp:220 (buildNeighborSearcher)] Building neighbor searcher took: 0.038456 seconds
+Writing pFrame210_spherical.obj...
+Resolution
+Grid Spacing
+Origin
+Method
+Read points finished
+Read
+Resolution: 100 x 100 x 100
+Domain: [0.000000, 0.000000, 0.000000] x [1.000000, 1.000000, 1.000000]
+Grid spacing: [0.010000, 0.010000, 0.010000]
+Number of particles: 375547
+Reconstruction method: sph
+[INFO] 2020-05-14 18:39:05 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/point_parallel_hash_grid_searcher3.cpp:141 (build)] Average number of points per non-empty bucket: 1526.61
+[INFO] 2020-05-14 18:39:05 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/point_parallel_hash_grid_searcher3.cpp:144 (build)] Max number of points per bucket: 2953
+[INFO] 2020-05-14 18:39:05 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/particle_system_data3.cpp:220 (buildNeighborSearcher)] Building neighbor searcher took: 0.04724 seconds
+Writing pFrame210_sph.obj...
+Resolution
+Grid Spacing
+Origin
+Method
+Read points finished
+Read
+Resolution: 100 x 100 x 100
+Domain: [0.000000, 0.000000, 0.000000] x [1.000000, 1.000000, 1.000000]
+Grid spacing: [0.010000, 0.010000, 0.010000]
+Number of particles: 375547
+Reconstruction method: zhu_bridson
+[INFO] 2020-05-14 18:39:30 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/point_parallel_hash_grid_searcher3.cpp:141 (build)] Average number of points per non-empty bucket: 1526.61
+[INFO] 2020-05-14 18:39:30 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/point_parallel_hash_grid_searcher3.cpp:144 (build)] Max number of points per bucket: 2953
+[INFO] 2020-05-14 18:39:30 [/home/DRIVE/Pesquisa2020/fluid-engine-dev/src/jet/particle_system_data3.cpp:220 (buildNeighborSearcher)] Building neighbor searcher took: 0.049285 seconds
+Writing pFrame210_zhu.obj...
+
